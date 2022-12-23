@@ -53,9 +53,9 @@ git pull -u origin branchName			==>To pull always from one branch  //so, next ti
  1. git clone yourRemoteRepositoryURL
  			Configure your credentials: 
 
- 				1. git config --global user.email email@mail.com
- 				2. git config --global user.password 
- 				2. git config --global user.name "Your name"
+ 			//	1. git config --global user.email email@mail.com
+ 			//	2. git config --global user.password 
+ 			//	2. git config --global user.name "Your name"
  				3. git config --list 	==> to check the config list
 
  2.Then to start working => create a local branch for yourself 			===> git branch branchName		
