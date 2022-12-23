@@ -41,12 +41,26 @@ git pull -u origin branchName			==>To pull always from one branch  //so, next ti
 		
 		==>To make a pull request from one branch to Master branch:
 
-				1. git checkout Master 			==switching to master branch
-				2. git pull origin Master       ==pulling latest code
-				3. git branch --merged			==see merged branches
-				4. git merger branchName		==to merge branch
-				5. git push origin Master       ==To push to master
+				1. git checkout Master 				==switching to master branch
+				2. git pull origin Master      	 	==pulling latest code
+				3. git branch --merged				==see merged branches
+				4. git merger branchName			==to merge branch
+				5. git push -u origin branchName    ==To push to remove branch
 
+===========================================================================================
+						Clone the project and get working:
+
+	1. git clone yourRemoteRepositoryURL
+	   enter credentials
+
+	2.Then to start working => create a local branch for yourself 			===> git branch branchName		
+
+	3. Never push the code from your local branch to remote master branche
+	4. Before pushing the code always pull the code from master branch 		===> git pull origin master
+	5. Push your code to a remote repository you created for yourself 		===> git push origin -u yourRemoteRepositoryName
+	6. Then you can create a pull request from your remote branch to master branche
+				 in the Repository: GitHub, GitLab, BitBucket..., 
+				 and include people who will review and accept your pul request
 
 
 To Ignore some files while commiting: 
